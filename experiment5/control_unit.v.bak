@@ -1,0 +1,38 @@
+module control_unit(clk, clk_en, nReset, DCF_Enable_in, SET_in, STATE_out, DCF_timeAndDate_in,
+                     DCF_set_in, SetClock_timeAndDate_in, SetClock_state_in, clock_timeAndDate_In,
+                     LCD_timeAndDate_Out, clock_timeAndDate_Out, clock_set_out);
+
+   input          clk;
+   input          clk_en;
+   input          nReset;
+   input          DCF_Enable_in;
+   input          SET_in;
+   output  [5:0]  STATE_out;
+   // -------DATA FROM DCF DECODER
+   input  [43:0]  DCF_timeAndDate_in;
+   input          DCF_set_in;
+   // -------DATA FROM SET CLOCK
+   input  [43:0]  SetClock_timeAndDate_in;
+   input   [3:0]  SetClock_state_in;
+   // -------DATA FROM CLOCK
+   input  [43:0]  clock_timeAndDate_In;
+   // -------DATA OUTPUT LCD-Matrix-Display
+   output [43:0]  LCD_timeAndDate_Out;
+   // -------DATA TO CLOCK
+   output [43:0]  clock_timeAndDate_Out;
+   output         clock_set_out;
+
+   reg        clock_set_out_reg;
+   reg [5:0]  STATE_out_reg;
+   reg [43:0] LCD_timeAndDate_Out_reg;
+   reg [43:0] clock_timeAndDate_Out_reg;
+   
+   assign clock_set_out = clock_set_out_reg;
+   assign STATE_out = STATE_out_reg;
+   assign LCD_timeAndDate_Out = LCD_timeAndDate_Out_reg;
+   assign clock_timeAndDate_Out = clock_timeAndDate_Out_reg;
+      
+   // ---------- YOUR CODE HERE ---------- 
+
+	  
+endmodule

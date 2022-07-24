@@ -1,0 +1,143 @@
+Flow report for DE0_Nano
+Mon Aug 17 14:37:50 2020
+Quartus Prime Version 17.0.2 Build 602 07/19/2017 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Flow Summary                                                                         ;
++------------------------------------+-------------------------------------------------+
+; Flow Status                        ; Successful - Mon Aug 17 14:37:42 2020           ;
+; Quartus Prime Version              ; 17.0.2 Build 602 07/19/2017 SJ Standard Edition ;
+; Revision Name                      ; DE0_Nano                                        ;
+; Top-level Entity Name              ; DE0_Nano                                        ;
+; Family                             ; Cyclone IV E                                    ;
+; Device                             ; EP4CE22F17C6                                    ;
+; Timing Models                      ; Final                                           ;
+; Total logic elements               ; 7,773 / 22,320 ( 35 % )                         ;
+;     Total combinational functions  ; 6,373 / 22,320 ( 29 % )                         ;
+;     Dedicated logic registers      ; 5,029 / 22,320 ( 23 % )                         ;
+; Total registers                    ; 5118                                            ;
+; Total pins                         ; 146 / 154 ( 95 % )                              ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 80,336 / 608,256 ( 13 % )                       ;
+; Embedded Multiplier 9-bit elements ; 6 / 132 ( 5 % )                                 ;
+; Total PLLs                         ; 1 / 4 ( 25 % )                                  ;
++------------------------------------+-------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 08/17/2020 14:35:30 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; DE0_Nano            ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                             ;
++-------------------------------------+-----------------------------------------------------------------+---------------+---------------+----------------------+
+; Assignment Name                     ; Value                                                           ; Default Value ; Entity Name   ; Section Id           ;
++-------------------------------------+-----------------------------------------------------------------+---------------+---------------+----------------------+
+; COMPILER_SIGNATURE_ID               ; 26601948774740.159766773010044                                  ; --            ; --            ; --                   ;
+; EDA_INPUT_DATA_FORMAT               ; Edif                                                            ; --            ; --            ; eda_design_synthesis ;
+; EDA_OUTPUT_DATA_FORMAT              ; None                                                            ; --            ; --            ; eda_simulation       ;
+; EDA_RUN_TOOL_AUTOMATICALLY          ; Off                                                             ; --            ; --            ; eda_design_synthesis ;
+; EDA_TIME_SCALE                      ; 1 ps                                                            ; --            ; --            ; eda_simulation       ;
+; ENABLE_SIGNALTAP                    ; On                                                              ; --            ; --            ; --                   ;
+; IGNORE_PARTITIONS                   ; On                                                              ; Off           ; --            ; --                   ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                              ; --            ; --            ; --                   ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                               ; --            ; --            ; --                   ;
+; MISC_FILE                           ; DE0_Nano_SOPC/synthesis/../DE0_Nano_SOPC.cmp                    ; --            ; --            ; --                   ;
+; MISC_FILE                           ; DE0_Nano_SOPC/synthesis/../../DE0_Nano_SOPC.qsys                ; --            ; --            ; --                   ;
+; MISC_FILE                           ; ram_bb.v                                                        ; --            ; --            ; --                   ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                                               ; --            ; --            ; --                   ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                                               ; --            ; --            ; --                   ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                                                      ; --            ; --            ; --                   ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                                                      ; --            ; --            ; --                   ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family)                          ; --            ; --            ; Top                  ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                          ; --            ; --            ; Top                  ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                          ; --            ; --            ; Top                  ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                             ; --            ; --            ; --                   ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                           ; --            ; --            ; --                   ;
+; SLD_FILE                            ; DE0_Nano_SOPC/synthesis/DE0_Nano_SOPC.regmap                    ; --            ; --            ; --                   ;
+; SLD_FILE                            ; DE0_Nano_SOPC/synthesis/DE0_Nano_SOPC.debuginfo                 ; --            ; --            ; --                   ;
+; SLD_INFO                            ; QSYS_NAME DE0_Nano_SOPC HAS_SOPCINFO 1 GENERATION_ID 1532685125 ; --            ; DE0_Nano_SOPC ; --                   ;
+; SOPCINFO_FILE                       ; DE0_Nano_SOPC/synthesis/../../DE0_Nano_SOPC.sopcinfo            ; --            ; --            ; --                   ;
+; SYNTHESIS_ONLY_QIP                  ; On                                                              ; --            ; --            ; --                   ;
+; USE_SIGNALTAP_FILE                  ; stp1.stp                                                        ; --            ; --            ; --                   ;
++-------------------------------------+-----------------------------------------------------------------+---------------+---------------+----------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:01:07     ; 1.0                     ; 1046 MB             ; 00:01:35                           ;
+; Fitter                    ; 00:00:52     ; 1.5                     ; 2667 MB             ; 00:02:01                           ;
+; Assembler                 ; 00:00:03     ; 1.0                     ; 608 MB              ; 00:00:03                           ;
+; TimeQuest Timing Analyzer ; 00:00:07     ; 1.8                     ; 924 MB              ; 00:00:09                           ;
+; Total                     ; 00:02:09     ; --                      ; --                  ; 00:03:48                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                         ;
++---------------------------+------------------+------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++---------------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis      ; hoeffler-pc      ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter                    ; hoeffler-pc      ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler                 ; hoeffler-pc      ; Windows 10 ; 10.0       ; x86_64         ;
+; TimeQuest Timing Analyzer ; hoeffler-pc      ; Windows 10 ; 10.0       ; x86_64         ;
++---------------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off DE0_Nano -c DE0_Nano
+quartus_fit --read_settings_files=off --write_settings_files=off DE0_Nano -c DE0_Nano
+quartus_asm --read_settings_files=off --write_settings_files=off DE0_Nano -c DE0_Nano
+quartus_sta DE0_Nano -c DE0_Nano
+
+
+

@@ -1,0 +1,230 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/FPGA_Lab/FPGA_Lab/experiment5/simulation/modelsim
+vcontrol_unit
+Z1 !s110 1651502392
+!i10b 1
+!s100 oUI_TNngSZF1zefFMOIIL0
+IF`nJ:Z_nT<`nbm^0@P43=0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1651478350
+8F:/FPGA_Lab/FPGA_Lab/experiment5/control_unit.v
+FF:/FPGA_Lab/FPGA_Lab/experiment5/control_unit.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1651502392.000000
+!s107 F:/FPGA_Lab/FPGA_Lab/experiment5/control_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FPGA_Lab/FPGA_Lab/experiment5|F:/FPGA_Lab/FPGA_Lab/experiment5/control_unit.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+F:/FPGA_Lab/FPGA_Lab/experiment5
+Z7 tCvgOpt 0
+vdcf77_decoder
+Z8 !s110 1651502391
+!i10b 1
+!s100 A2YlCl]PcVLC3FG]TnJ:80
+If<1NAWZWIZAm;Nf=9gb;d1
+R2
+R0
+w1651497584
+8F:/FPGA_Lab/FPGA_Lab/experiment5/dcf77_decoder.v
+FF:/FPGA_Lab/FPGA_Lab/experiment5/dcf77_decoder.v
+Z9 L0 17
+R3
+r1
+!s85 0
+31
+Z10 !s108 1651502391.000000
+!s107 F:/FPGA_Lab/FPGA_Lab/experiment5/dcf77_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FPGA_Lab/FPGA_Lab/experiment5|F:/FPGA_Lab/FPGA_Lab/experiment5/dcf77_decoder.v|
+!i113 1
+R5
+R6
+R7
+vGenClockDCF
+!s110 1651502390
+!i10b 1
+!s100 n27M]oM`BSHG0::2aeJUm0
+I:7fz9Fe]JPT_m3Z9aa2il1
+R2
+R0
+w1537834516
+8F:/FPGA_Lab/FPGA_Lab/experiment5/GenClockDCF.v
+FF:/FPGA_Lab/FPGA_Lab/experiment5/GenClockDCF.v
+Z11 L0 18
+R3
+r1
+!s85 0
+31
+!s108 1651502390.000000
+!s107 F:/FPGA_Lab/FPGA_Lab/experiment5/GenClockDCF.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FPGA_Lab/FPGA_Lab/experiment5|F:/FPGA_Lab/FPGA_Lab/experiment5/GenClockDCF.v|
+!i113 1
+R5
+R6
+R7
+n@gen@clock@d@c@f
+Elcddriver
+w1533081196
+Z12 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z13 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z14 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+8F:/FPGA_Lab/FPGA_Lab/experiment5/lcddriver.vhd
+FF:/FPGA_Lab/FPGA_Lab/experiment5/lcddriver.vhd
+l0
+L32
+VORH8aCj2k1;ko0]`TiQCh2
+!s100 a5F8RPNmQ:IN0dTje=7Te2
+Z15 OV;C;10.5b;63
+31
+!s110 1651502394
+!i10b 1
+Z16 !s108 1651502393.000000
+!s90 -reportprogress|300|-93|-work|work|F:/FPGA_Lab/FPGA_Lab/experiment5/lcddriver.vhd|
+!s107 F:/FPGA_Lab/FPGA_Lab/experiment5/lcddriver.vhd|
+!i113 1
+Z17 o-93 -work work
+Z18 tExplicit 1 CvgOpt 0
+Elcdsteuerung
+Z19 w1098228262
+R12
+R13
+R14
+R0
+Z20 8F:/FPGA_Lab/FPGA_Lab/experiment5/LCDsteuerung.vhd
+Z21 FF:/FPGA_Lab/FPGA_Lab/experiment5/LCDsteuerung.vhd
+l0
+L28
+VOX>5ld>3b`K?R9BfJLTA?0
+!s100 K9DPVULJkENiadTS;En:b0
+R15
+31
+Z22 !s110 1651502393
+!i10b 1
+R16
+Z23 !s90 -reportprogress|300|-93|-work|work|F:/FPGA_Lab/FPGA_Lab/experiment5/LCDsteuerung.vhd|
+Z24 !s107 F:/FPGA_Lab/FPGA_Lab/experiment5/LCDsteuerung.vhd|
+!i113 1
+R17
+R18
+Aa
+R12
+R13
+R14
+DEx4 work 12 lcdsteuerung 0 22 OX>5ld>3b`K?R9BfJLTA?0
+l116
+L56
+Vc1l6P7]dc^elBCBHYn>;R0
+!s100 Ab7=bXL=G[mDDRzPm8fHg1
+R15
+31
+R22
+!i10b 1
+R16
+R23
+R24
+!i113 1
+R17
+R18
+vpll10
+R1
+!i10b 1
+!s100 d6[X2:bIo09H^VRafoYF>0
+I2>zc3S2_1[2PIX`LR2m300
+R2
+R0
+w1636546110
+8F:/FPGA_Lab/FPGA_Lab/experiment5/pll10.v
+FF:/FPGA_Lab/FPGA_Lab/experiment5/pll10.v
+L0 40
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/FPGA_Lab/FPGA_Lab/experiment5/pll10.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FPGA_Lab/FPGA_Lab/experiment5|F:/FPGA_Lab/FPGA_Lab/experiment5/pll10.v|
+!i113 1
+R5
+R6
+R7
+vpll10_altpll
+R1
+!i10b 1
+!s100 ]e1e@33QFFR4Hfka_Oge^1
+IYHhcO`i8Rg9B9a?d?hM@l2
+R2
+R0
+w1638963106
+8F:/FPGA_Lab/FPGA_Lab/experiment5/db/pll10_altpll.v
+FF:/FPGA_Lab/FPGA_Lab/experiment5/db/pll10_altpll.v
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/FPGA_Lab/FPGA_Lab/experiment5/db/pll10_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FPGA_Lab/FPGA_Lab/experiment5/db|F:/FPGA_Lab/FPGA_Lab/experiment5/db/pll10_altpll.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+F:/FPGA_Lab/FPGA_Lab/experiment5/db
+R7
+vsetClock
+R8
+!i10b 1
+!s100 PR4Pg4[1^>6_1Gn]N77Pm2
+I4G^HLc5c;am97ZZ4cPii@0
+R2
+R0
+w1538019584
+8F:/FPGA_Lab/FPGA_Lab/experiment5/setClock.v
+FF:/FPGA_Lab/FPGA_Lab/experiment5/setClock.v
+R9
+R3
+r1
+!s85 0
+31
+R10
+!s107 F:/FPGA_Lab/FPGA_Lab/experiment5/setClock.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FPGA_Lab/FPGA_Lab/experiment5|F:/FPGA_Lab/FPGA_Lab/experiment5/setClock.v|
+!i113 1
+R5
+R6
+R7
+nset@clock
+vtimeAndDateClock
+R22
+!i10b 1
+!s100 MM4GcR?OEHcHzVM2V4Jh:0
+I9>KVggoamGa^S@??=>3MH2
+R2
+R0
+w1639620890
+8F:/FPGA_Lab/FPGA_Lab/experiment5/timeanddateclock.v
+FF:/FPGA_Lab/FPGA_Lab/experiment5/timeanddateclock.v
+R11
+R3
+r1
+!s85 0
+31
+R16
+!s107 F:/FPGA_Lab/FPGA_Lab/experiment5/timeanddateclock.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/FPGA_Lab/FPGA_Lab/experiment5|F:/FPGA_Lab/FPGA_Lab/experiment5/timeanddateclock.v|
+!i113 1
+R5
+R6
+R7
+ntime@and@date@clock
